@@ -17,7 +17,7 @@
 
 # C4-PlantUML (released v2.5.0)
 
-> This is an explicit created branch `releases/v250` and therefore all following samples... uses this branch.
+> This is an explicit created branch `releases/v250` and therefore all following samples... use this branch.
 >
 > All (this and other) released/tagged versions can you use in your diagrams via corresponding tag-based branches too,
 > e.g. `!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/v2.5.0/C4_Container.puml` references tagged version `v2.5.0`)
