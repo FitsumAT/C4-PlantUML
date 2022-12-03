@@ -5,7 +5,7 @@
  &nbsp; &nbsp; &nbsp;
 [![commits since][Commits Since Badge]][Commit Page]
 
-[Release Badge]: https://img.shields.io/github/v/release/plantuml-stdlib/C4-PlantUML?display_name=tag
+[Release Badge]: https://img.shields.io/badge/release-v2.5.0-blue
 [Release Page]: https://github.com/plantuml-stdlib/C4-PlantUML/releases/v2.5.0
 [License Badge]: https://img.shields.io/github/license/plantuml-stdlib/C4-PlantUML
 [License Page]: https://github.com/plantuml-stdlib/C4-PlantUML/blob/master/LICENSE
@@ -84,7 +84,7 @@ java -jar plantuml.jar -DRELATIVE_INCLUDE="."  ...
 If you want to use the always up-to-date version of the C4-PlantUML library in this repo (which obviously requires an Internet connection every time you render a document), use the following:
 
 ```plantuml
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/releases/v250/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 ```
 
 If you don't need the up-to-date version, PlantUML includes the last released `C4_...` files as [standard library C4](https://plantuml.com/stdlib#062f75176513a666) \(no additional files or Internet is required). You can use it with following:
