@@ -20,7 +20,4 @@ jobs:
         uses: Timmy/plantuml-action@v1
         with:
           args: '-v percy -o _parsed -DRELATIVE_INCLUDE="./.."'
-      - name: Upload
-        run: npx @percy/cli upload percy/_parsed
-        env:
-          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+ 
